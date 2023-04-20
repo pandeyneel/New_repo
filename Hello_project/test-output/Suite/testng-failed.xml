@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testingjava_pages.Testbox_test">
+        <methods>
+          <include name="textbox"/>
+          <include name="getvarrified"/>
+          <include name="getfilldetails"/>
+          <include name="getlaunchbrowser"/>
+          <include name="clicksubmit"/>
+          <include name="elements"/>
+        </methods>
+      </class> <!-- testingjava_pages.Testbox_test -->
+      <class name="testNG.Change_window_tab_test">
+        <methods>
+          <include name="clickonalert"/>
+          <include name="browser"/>
+          <include name="getlaunchbrowser"/>
+          <include name="clickontab"/>
+        </methods>
+      </class> <!-- testNG.Change_window_tab_test -->
+      <class name="testNG.Alerttest">
+        <methods>
+          <include name="proompt"/>
+          <include name="confirmbox"/>
+          <include name="waitfor5second"/>
+          <include name="readonly"/>
+          <include name="launch"/>
+          <include name="reachthealrtpage"/>
+        </methods>
+      </class> <!-- testNG.Alerttest -->
+      <class name="testNG.Accordian_test">
+        <methods>
+          <include name="getlaunch"/>
+          <include name="readfirstaccordian"/>
+          <include name="reachthepage"/>
+          <include name="readsecondaccordian"/>
+        </methods>
+      </class> <!-- testNG.Accordian_test -->
+      <class name="testNG.Newtest">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="login"/>
+          <include name="setup"/>
+          <include name="closebrowser"/>
+          <include name="googletitletest"/>
+          <include name="deletecookies"/>
+          <include name="generatereport"/>
+          <include name="enterurl"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- testNG.Newtest -->
+      <class name="testingjava_pages.Mergeclass">
+        <methods>
+          <include name="setup"/>
+          <include name="type"/>
+          <include name="search"/>
+          <include name="clickonsong"/>
+          <include name="gettitle"/>
+        </methods>
+      </class> <!-- testingjava_pages.Mergeclass -->
+      <class name="testNG.Download_upload_test">
+        <methods>
+          <include name="clickonelement"/>
+          <include name="getlaunch"/>
+        </methods>
+      </class> <!-- testNG.Download_upload_test -->
+      <class name="testNG.Changeframetest">
+        <methods>
+          <include name="getlaunch"/>
+          <include name="clickonparentframe"/>
+          <include name="clickonalertframe"/>
+          <include name="getdata2"/>
+          <include name="clickonframe"/>
+          <include name="getdata"/>
+        </methods>
+      </class> <!-- testNG.Changeframetest -->
+      <class name="testNG.Frametest">
+        <methods>
+          <include name="frame1read"/>
+          <include name="openthepage"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- testNG.Frametest -->
+      <class name="testNG.Autocomplete_Test">
+        <methods>
+          <include name="getlauch"/>
+          <include name="sendkeys"/>
+          <include name="reachthepage"/>
+        </methods>
+      </class> <!-- testNG.Autocomplete_Test -->
+      <class name="testNG.Test_excellperiodicity">
+        <methods>
+          <include name="clickoniframe"/>
+          <include name="getlaunchbrowser"/>
+          <include name="filldata"/>
+          <include name="clickonclosebtn"/>
+          <include name="clickonlinks"/>
+        </methods>
+      </class> <!-- testNG.Test_excellperiodicity -->
+      <class name="testNG.LoginTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="launch"/>
+          <include name="gettitle"/>
+        </methods>
+      </class> <!-- testNG.LoginTest -->
+      <class name="testNG.Modaldialog_test">
+        <methods>
+          <include name="secondbutton"/>
+          <include name="firstbutton"/>
+          <include name="reachthepage"/>
+          <include name="getlaunch"/>
+        </methods>
+      </class> <!-- testNG.Modaldialog_test -->
+      <class name="testNG.Nestedframe_test">
+        <methods>
+          <include name="geturl"/>
+          <include name="childframe"/>
+          <include name="reachthepage"/>
+        </methods>
+      </class> <!-- testNG.Nestedframe_test -->
+      <class name="testNG.Button_test">
+        <methods>
+          <include name="doubleclick"/>
+          <include name="rightclick"/>
+          <include name="click"/>
+          <include name="clickonelement"/>
+          <include name="clickonbutton"/>
+          <include name="getbrowser"/>
+        </methods>
+      </class> <!-- testNG.Button_test -->
+      <class name="testNG.Upload_test">
+        <methods>
+          <include name="getlaunch"/>
+          <include name="clickonelement"/>
+        </methods>
+      </class> <!-- testNG.Upload_test -->
+      <class name="testNG.Datepick_test">
+        <methods>
+          <include name="datepick"/>
+          <include name="widgetclick"/>
+          <include name="dateform"/>
+          <include name="dateselect"/>
+          <include name="getlaunch"/>
+        </methods>
+      </class> <!-- testNG.Datepick_test -->
+      <class name="testNG.Googletest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="titletest"/>
+        </methods>
+      </class> <!-- testNG.Googletest -->
+      <class name="testNG.Upload_download_test">
+        <methods>
+          <include name="upload"/>
+          <include name="getlaunch"/>
+          <include name="selectfile"/>
+          <include name="clickonelement"/>
+        </methods>
+      </class> <!-- testNG.Upload_download_test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

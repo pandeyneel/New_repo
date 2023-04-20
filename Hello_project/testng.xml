@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testNG.Modaldialog_test" enabled="false"/>
+      <class name="testNG.Test_excellperiodicity"/>
+      <class name="testNG.Alerttest"/>
+      <class name="testNG.Accordian_test"/>
+      <class name="testNG.Frametest"/>
+      <class name="testNG.Download_upload_test"/>
+      <class name="testNG.Nestedframe_test"/>
+      <class name="testNG.LoginTest"/>
+      <class name="testingjava_pages.Testbox_test"/>
+      <class name="testNG.Newtest"/>
+      <class name="mavenpackage.Githubloginpagetest"/>
+      <class name="testNG.Upload_test"/>
+      <class name="testingjava_pages.Mergeclass"/>
+      <class name="testNG.Datepick_test"/>
+      <class name="testNG.Upload_download_test"/>
+      <class name="testNG.Changeframetest"/>
+      <class name="testNG.Change_window_tab_test"/>
+      <class name="testNG.Googletest"/>
+      <class name="testNG.Button_test"/>
+      <class name="testNG.Autocomplete_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
